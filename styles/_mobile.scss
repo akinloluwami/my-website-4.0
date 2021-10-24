@@ -1,0 +1,12 @@
+@media only screen and (max-width: 600px) {
+  .hero {
+    .right {
+      display: none;
+    }
+    .left {
+      h1 {
+        font-size: 0.2rem;
+      }
+    }
+  }
+}
