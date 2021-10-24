@@ -20,21 +20,11 @@
     flex-direction: column;
     align-items: center;
     .left {
-      align-items: center;
-      width: 100%;
-      margin: auto;
       .info {
         p {
           margin: 0;
           text-align: center;
-          font-size: 20px;
-        }
-      }
-    }
-    .right {
-      .form {
-        input {
-          width: 30%;
+          font-size: 5px;
         }
       }
     }

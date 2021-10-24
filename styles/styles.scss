@@ -41,6 +41,8 @@ body {
   justify-content: space-between;
   height: 10vh;
   background-color: $bg-color;
+  position: sticky;
+  top: 0;
   .left {
     margin-left: 2rem;
     .logo {
@@ -297,7 +299,7 @@ body {
           display: flex;
           align-items: center;
           margin: 2rem 0;
-          font-size: 2rem;
+          font-size: 1.5rem;
           i {
             display: flex;
             align-items: center;
