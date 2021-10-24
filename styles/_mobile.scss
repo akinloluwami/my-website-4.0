@@ -5,8 +5,11 @@
     }
     .left {
       margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       h1 {
-        font-size: 2px;
+        font-size: 4rem;
         text-align: center;
       }
     }
