@@ -565,4 +565,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.contact-container .left {
+  width: 100%;
+}
 /*# sourceMappingURL=styles.css.map */
