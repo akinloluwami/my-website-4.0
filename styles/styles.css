@@ -520,6 +520,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .hero {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .hero .right {
     display: none;
   }
