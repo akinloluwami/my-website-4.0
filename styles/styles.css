@@ -522,30 +522,16 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100vw;
-    margin: auto;
-  }
-  .main .hero {
+  .hero {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     height: 60vh;
   }
-  .main .hero .right {
+  .hero .right {
     display: none;
   }
-  .main .hero .left {
+  .hero .left {
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -558,7 +544,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .main .hero .left h1 {
+  .hero .left h1 {
     font-size: 4rem;
     text-align: center;
   }
