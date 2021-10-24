@@ -3,6 +3,9 @@
   .hero .right {
     display: none;
   }
+  .hero .left {
+    margin: 0;
+  }
   .hero .left h1 {
     font-size: 2px;
     text-align: center;
