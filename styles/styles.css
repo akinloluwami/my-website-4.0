@@ -1,17 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
-@media only screen and (max-width: 600px) {
-  .hero .right {
-    display: none;
-  }
-  .hero .left {
-    margin: 0;
-  }
-  .hero .left h1 {
-    font-size: 2px;
-    text-align: center;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -530,5 +517,18 @@ body {
   color: #fff;
   background-color: #d50000;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero .right {
+    display: none;
+  }
+  .hero .left {
+    margin: 0;
+  }
+  .hero .left h1 {
+    font-size: 2px;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
