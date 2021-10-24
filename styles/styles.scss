@@ -144,7 +144,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    // min-width: 95vw;
+    min-width: 95vw;
     .project {
       width: 400px;
       display: flex;
@@ -266,11 +266,10 @@ body {
 
     .left {
       display: flex;
-      align-items: flex-start;
-      width: 50%;
+      align-items: center;
       flex-direction: column;
       h1 {
-        font-size: 4rem;
+        font-size: 3rem;
       }
       .socials {
         ul {
@@ -316,7 +315,6 @@ body {
     .right {
       display: flex;
       justify-content: center;
-      width: 50%;
       .form {
         display: flex;
         flex-direction: column;

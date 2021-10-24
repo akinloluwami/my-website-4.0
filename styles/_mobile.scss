@@ -20,7 +20,9 @@
     flex-direction: column;
     align-items: center;
     .left {
-      width: 90%;
+      align-items: center;
+      width: 100%;
+      margin: auto;
       .info {
         p {
           margin: 0;
