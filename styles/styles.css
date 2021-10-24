@@ -205,6 +205,9 @@ body {
   width: 95%;
   margin: auto;
   margin: 2rem 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   min-width: 95vw;
@@ -520,15 +523,21 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .hero {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main .hero {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: 60vh;
   }
-  .hero .right {
+  .main .hero .right {
     display: none;
   }
-  .hero .left {
+  .main .hero .left {
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -541,7 +550,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .hero .left h1 {
+  .main .hero .left h1 {
     font-size: 4rem;
     text-align: center;
   }

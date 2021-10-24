@@ -1,17 +1,21 @@
 @media only screen and (max-width: 600px) {
-  .hero {
-    justify-content: center;
-    .right {
-      display: none;
-    }
-    .left {
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      h1 {
-        font-size: 4rem;
-        text-align: center;
+  .main {
+    display: flex;
+    .hero {
+      justify-content: center;
+      height: 60vh;
+      .right {
+        display: none;
+      }
+      .left {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+          font-size: 4rem;
+          text-align: center;
+        }
       }
     }
   }
