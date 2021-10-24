@@ -534,6 +534,8 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 100vw;
+    margin: auto;
   }
   .main .hero {
     -webkit-box-pack: center;

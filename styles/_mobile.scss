@@ -3,6 +3,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100vw;
+    margin: auto;
     .hero {
       justify-content: center;
       height: 60vh;
