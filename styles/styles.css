@@ -552,7 +552,10 @@ body {
     font-size: 4rem;
     text-align: center;
   }
-  .contact-container {
+  .contact h1 {
+    display: none;
+  }
+  .contact .contact-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -561,7 +564,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .contact-container .left .info p {
+  .contact .contact-container .left .info p {
     margin: 0;
     text-align: center;
     font-size: 5px;
