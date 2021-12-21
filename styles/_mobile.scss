@@ -16,20 +16,15 @@
       }
     }
   }
-  .contact {
-    h1 {
-      display: none;
-    }
-    .contact-container {
-      flex-direction: column;
-      align-items: center;
-      .left {
-        .info {
-          p {
-            margin: 0;
-            text-align: center;
-            font-size: 5px;
-          }
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    .left {
+      .info {
+        p {
+          margin: 0;
+          text-align: center;
+          font-size: 5px;
         }
       }
     }
